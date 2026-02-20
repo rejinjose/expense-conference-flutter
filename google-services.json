@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880176719664",
+    "project_id": "personal-diary-2026-beta",
+    "storage_bucket": "personal-diary-2026-beta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880176719664:android:df19cf0aecb799baf60af5",
+        "android_client_info": {
+          "package_name": "com.company.personaldiary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0TLyjPt1soibwuhHuIN5pdnLQC458Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
