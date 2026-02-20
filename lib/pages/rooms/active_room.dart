@@ -30,8 +30,11 @@ class _ActiveRoomPageState extends ConsumerState<ActiveRoomPage> {
 
   try {
     // 1. Connect
-    // Note: In a production app, use: String url = dotenv.get('LIVEKIT_URL');
-    await room.connect(dotenv.get('LIVEKIT_URL'), widget.token);
+    const livekitUrl = String.fromEnvironment(
+      'LIVEKIT_URL',
+      defaultValue: 'wss://personal-diary-sqn74vh5.livekit.cloud',
+    );
+    await room.connect(livekitUrl, widget.token);
     
     // 2. Access the notifier to get the selected hardware
     final pNotifier = ref.read(permissionsProvider.notifier);
