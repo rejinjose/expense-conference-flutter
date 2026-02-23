@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "personal-diary-2026-beta"
-  }
+  },
+  "targets": {
+    "personal-diary-2026-beta": {
+      "hosting": {
+        "flutter": [
+          "personal-diary-flutter"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

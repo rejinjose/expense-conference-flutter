@@ -31,3 +31,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_DIARY_2026_BETA }}'
           channelId: live
           projectId: personal-diary-2026-beta
+          target: flutter

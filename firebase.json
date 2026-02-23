@@ -23,6 +23,7 @@
     }
   },
   "hosting": {
+    "target": "flutter",
     "public": "build/web",
     "ignore": [
       "firebase.json",
